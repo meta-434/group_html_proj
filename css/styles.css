@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 header {
   /*temp VV */
   border-style: dashed;
@@ -57,8 +58,9 @@ div#main h1{
   margin-right: 20%;
   margin-top: 50px;
 
-  color: #76323f;
-  background-color: #d7cec7;
+  color: black;
+  background-image: url(books2.jpg);
+  background-size: cover;
   /*temp VV */
   border-style: dashed;
   border-color: black;
