@@ -2,11 +2,18 @@
 
 *{background-color: #edecf1; font-family: Verdana, Geneva, sans-serif; color: DimGrey; word-wrap: break-word;}
 
-header, nav, #main {
+header, nav {
   animation-name: fadeIn;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out;
-  animation-duration: 1s;
+  animation-duration: 0.7s;
+}
+
+div#main {
+  animation-name: fadeIn;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.4s;
 }
 
 h1 {text-indent: 30px;}
