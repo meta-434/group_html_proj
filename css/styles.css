@@ -36,7 +36,7 @@ header a:hover {color: black;}
 
 header h1 {font-size: 20px; display: inline; background-color: inherit;}
 
-ul{position: fixed; top: 20px; right: 0; height: 760px; width: 18%; text-decoration: none; list-style-type:none; z-index: 0;}
+ul{position: fixed; top: 20px; right: 0; height: 102%; width: 18%; text-decoration: none; list-style-type:none; z-index: 0;}
 
 li {
   text-align: center;
