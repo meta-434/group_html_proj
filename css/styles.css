@@ -1,28 +1,30 @@
 @charset "utf-8";
 
-*****************************[#c08c83]
-
 *{background-color: #edecf1; font-family: Verdana, Geneva, sans-serif; color: DimGrey; word-wrap: break-word;}
 
-header, nav {
+h1#main, nav {
   animation-name: fadeIn;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out;
   animation-duration: 0.7s;
 }
 
-div#main {
-  animation-name: fadeIn;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in-out;
-  animation-duration: 0.4s;
+h1, h2, h3, p, blockquote {
+  margin-right: 27%;
 }
 
-h1 {text-indent: 30px;}
+h1 {text-indent: 35px;}
 
-h2 {text-indent: 60px;}
+h2 {text-indent: 65px;}
 
-p {text-indent: 30px; margin-left: 90px; z-index: 1;}
+h3 {text-indent: 95px;}
+
+blockquote {margin-left: 125px;}
+
+p {text-indent: 30px; margin-left: 95px; z-index: 1;}
+
+footer {margin-left: 20%;}
+footer h1 { margin-left: 9%;}
 
 .anchor { padding-top: 30px; }
 
@@ -45,18 +47,28 @@ header a:hover {color: black;}
 
 header h1 {font-size: 20px; display: inline; background-color: inherit;}
 
-ul{position: fixed; top: 20px; right: 0; height: 102%; width: 18%; text-decoration: none; list-style-type:none; z-index: 0;}
+ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 20%;
+  background-color: #f1f1f1;
+  height: 100%;
+  position: fixed;
+  right: 0px;
+  overflow: auto;
+}
 
 li {
   text-align: center;
   display: block;
 
   list-style-type: none;
-  padding-top: 67px;
   margin-left:0;
   margin-right: 0;
+  line-height: 20%;
   width: 100%;
-  height: 11.5%;
+  height: 20%;
   opacity: 1;
   background-color: inherit;
   transition: opacity 5s ease-in-out;
@@ -66,25 +78,30 @@ li {
 
 li:hover {opacity: 0.8}
 
+
 li a {
   text-decoration: none;
+  margin: auto;
+  line-height: 5;
   color: black;
+  font-size: 30px;
   background-color: inherit;
 }
 
-li#in_use{background-color: #ff964f;}
+li#in_use{background-color: #d7cec7;}
 li#events{background-color: #b8a4a1;}
-li#botm{background-color: #992e2e;}
-li#gallery{background-color: #d7cec7;}
-li#news{background-color: #565656;}
+li#botm{background-color: #e5b085;}
+li#gallery{background-color: #C08C83;}
+li#news{background-color: #7c6a67;}
+li#news a {color:white;}
 
 #main {width: 100%; height: 100%; }
 
 #home h1{
   display: block;
   font-size: 200px;
-  margin-right: 18%;
-  margin-top: 0px;
+  margin-right: 20%;
+  margin-top: -20px;
   margin-bottom: 20px;
   height: 760px;
   left: 0px;
@@ -93,13 +110,11 @@ li#news{background-color: #565656;}
   background-size: cover;
   overflow: hidden;
 
-  width: 82%;
-  position: relative;
+  width: 79%;
   z-index: 5;
 }
 
 div#main h2, div#main p {
-  margin-right: 21%;
   left: 0px;
 }
 
@@ -107,9 +122,9 @@ div#main h2, div#main p {
 
 iframe {margin-left:30%;}
 
-#galleryPage img {margin-left: 150px;}
+#galleryPage img {margin-left: 15%;}
 
-/*FADE IN TEST*/
+/*Animations TEST*/
 
 @keyframes fadeIn {
   0% { opacity:0; }
