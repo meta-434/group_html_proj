@@ -1,6 +1,11 @@
 @charset "utf-8";
 
-*{background-color: #edecf1; font-family: Verdana, Geneva, sans-serif; color: DimGrey; word-wrap: break-word;}
+*{
+  background-color: #edecf1;
+  font-family: Verdana, Geneva, sans-serif;
+  color: DimGrey;
+  word-wrap: break-word;
+}
 
 h1#main, nav {
   animation-name: fadeIn;
@@ -24,12 +29,10 @@ blockquote {margin-left: 125px;}
 p {text-indent: 30px; margin-left: 95px; z-index: 1;}
 
 footer {margin-left: 20%;}
+
 footer h1 { margin-left: 9%;}
 
-.anchor { padding-top: 30px; }
-
 header {
-
   height: 36px;
   top: 0px;
   left: 0px;
@@ -38,7 +41,6 @@ header {
   margin-bottom: 0;
   position: fixed;
   z-index: 6;
-
 }
 
 header a {text-decoration: none; background-color: inherit; transition: color .5s ease-in-out;}
@@ -47,7 +49,7 @@ header a:hover {color: black;}
 
 header h1 {font-size: 20px; display: inline; background-color: inherit;}
 
-ul{
+ul {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
@@ -62,7 +64,6 @@ ul{
 li {
   text-align: center;
   display: block;
-
   list-style-type: none;
   margin-left:0;
   margin-right: 0;
@@ -77,7 +78,6 @@ li {
 }
 
 li:hover {opacity: 0.8}
-
 
 li a {
   text-decoration: none;
@@ -109,13 +109,8 @@ li#news a {color:white;}
   background-image: url(books2.jpg);
   background-size: cover;
   overflow: hidden;
-
   width: 79%;
   z-index: 5;
-}
-
-div#main h2, div#main p {
-  left: 0px;
 }
 
 #eventsPage, #botmPage, #galleryPage, #newsPage { margin-top: 50px;}
